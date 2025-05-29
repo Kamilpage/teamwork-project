@@ -1,0 +1,19 @@
+#hr__blue {
+    background-color: #3ADAD9;
+    border: none;
+    height: 6px;
+    width: 65px;
+    margin-left: 0;
+    border-radius: 6px;
+    margin-top: 40px;
+}
+
+#hr__orange {
+    background-color: #FFCA1D;
+    border: none;
+    height: 6px;
+    width: 65px;
+    margin-left: 0;
+    border-radius: 6px;
+    margin-top: 40px;
+}
