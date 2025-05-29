@@ -218,6 +218,13 @@ hr {
     line-height: 127%;
     color: #2C2C2C;
     margin-top: 40px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+
+.welcome-section__inner__left button:hover {
+    transform: scale(1.1);
 }
 
 
@@ -406,6 +413,15 @@ hr {
     justify-content: center;
 }
 
+.integrate-tools img {
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.integrate-tools img:hover {
+    transform: scale(1.1);
+}
+
 .integrate-btn {
     padding-top: 100px;
     display: flex;
@@ -426,6 +442,11 @@ hr {
     cursor: pointer;
     border: none;
     border-radius: 10px;
+    transition: all .4s ease;
+}
+
+.integrate-btn button:hover {
+    transform: scale(1.1);
 }
 
 .blue-line {}
