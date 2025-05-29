@@ -20,7 +20,7 @@
 
 
 p {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
 }
 
 
@@ -45,7 +45,7 @@ p {
 
 .logo-ic-name h1 {
     color: #f0f0f0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-weight: 600;
     font-size: 30px;
 }
@@ -56,7 +56,7 @@ p {
 }
 
 .nav-elements a {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-weight: 600;
     font-size: 24px;
     line-height: 127%;
@@ -91,7 +91,7 @@ p {
     display: block;
     color: black;
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
 }
 
 .dropdown-items a:hover {
@@ -117,7 +117,7 @@ p {
     font-weight: 600;
     font-size: 24px;
     line-height: 127%;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     transition: all .3s ease;
 }
 
@@ -128,7 +128,7 @@ p {
 
 .nav-action button {
     border: none;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-size: 24px;
     line-height: 127%;
     color: #1F1F1F;
@@ -164,7 +164,7 @@ p {
 }
 
 .welcome-section__inner__left a {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
@@ -178,7 +178,7 @@ p {
 }
 
 .welcome-section__inner__left h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-weight: 800;
     font-size: 64px;
     line-height: 127%;
@@ -212,7 +212,7 @@ hr {
     border-radius: 10px;
     background-color: #FFCA1D;
     border: none;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-weight: 600;
     font-size: 26px;
     line-height: 127%;
@@ -246,15 +246,6 @@ hr {
     color: var(--text--main--color);
 }
 
-.partners-left hr {
-    background-color: #FFCA1D;
-    border: none;
-    height: 6px;
-    width: 65px;
-    margin-left: 0;
-    border-radius: 6px;
-    margin-top: 40px;
-}
 
 .partners-right {
     display: flex;
@@ -354,7 +345,24 @@ hr {
     padding-bottom: 138px;
 }
 
-.feature-content-left {}
+.feature-content-left p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.5%;
+    color: var(--text--main--color);
+}
+
+
+.feature-content-left h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 147%;
+    letter-spacing: 2%;
+    color: var(--heading--main--color);
+    text-align: start;
+}
+
 
 .feature-content-right h2 {
     font-weight: 700;
@@ -374,11 +382,51 @@ hr {
 
 }
 
-.integrate-tools {}
+.integrate-heading h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 147%;
+    letter-spacing: 2%;
+    color: var(--heading--main--color);
+    text-align: center;
+    margin-bottom: 100px;
+}
 
-.integrate-heading {}
+.integrate-heading h2 span {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 147%;
+    letter-spacing: 2%;
+    color: orange;
+}
 
-.integrate-btn {}
+.integrate-tools {
+    display: flex;
+    gap: 92px;
+    justify-content: center;
+}
+
+.integrate-btn {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 100px;
+    margin-top: 100px; */
+}
+
+.integrate-btn button {
+    background-color: #FFCA1D;
+    color: var(--text--main--color);
+    padding: 19px 65px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 127%;
+    font-family: "Nurito";
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
 
 .blue-line {}
 
